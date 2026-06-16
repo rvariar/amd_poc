@@ -476,7 +476,7 @@ Smart Authentication & Fraud Elimination via Telecom-LLM
 
 
 
-root@jupyter-hack-team-2094-260616163225-54f006d4:/workspace/shared/rgv1/telco_auth_full# ls -lrt */*/*/*/*
+ ls -lrt */*/*/*/*
 -rw-r--r-- 1 root root      173 Jun 12 13:08 src/telco_auth/generators/__pycache__/__init__.cpython-312.pyc
 -rw-r--r-- 1 root root      170 Jun 12 13:08 src/telco_auth/schemas/__pycache__/__init__.cpython-312.pyc
 -rw-r--r-- 1 root root     1075 Jun 12 13:08 src/telco_auth/schemas/__pycache__/event_schema.cpython-312.pyc
@@ -534,8 +534,7 @@ root@jupyter-hack-team-2094-260616163225-54f006d4:/workspace/shared/rgv1/telco_a
 -rw-r--r-- 1 root root    14244 Jun 16 12:03 artifacts/lora_adapters/qwen_telco_security_0_6b/checkpoint-2500/rng_state.pth
 -rw-r--r-- 1 root root    42415 Jun 16 12:03 artifacts/lora_adapters/qwen_telco_security_0_6b/checkpoint-2500/trainer_state.json
 
-
-root@jupyter-hack-team-2094-260616163225-54f006d4:/workspace/shared/rgv1/telco_auth_full# ls -lrt data/*
+telco_auth_full# ls -lrt data/*
 -rw-r--r-- 1 root root 104 Jun 16 09:06 data/view_data.py
 
 data/processed:
@@ -544,7 +543,8 @@ total 0
 data/raw:
 total 262292
 -rw-r--r-- 1 root root 268583351 Jun 16 11:18 auth_events.parquet
-root@jupyter-hack-team-2094-260616163225-54f006d4:/workspace/shared/rgv1/telco_auth_full# ls -lrt artifacts/*/*/*
+
+telco_auth_full# ls -lrt artifacts/*/*/*
 -rw-r--r-- 1 root root     5184 Jun 13 05:15 artifacts/lora_adapters/qwen_telco_security_smoke/README.md
 -rw------- 1 root root 20236472 Jun 13 05:15 artifacts/lora_adapters/qwen_telco_security_smoke/adapter_model.safetensors
 -rw-r--r-- 1 root root     1093 Jun 13 05:15 artifacts/lora_adapters/qwen_telco_security_smoke/adapter_config.json
